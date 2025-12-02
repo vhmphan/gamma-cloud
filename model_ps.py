@@ -174,7 +174,7 @@ ax.set_ylim(1.0e-7, 2.0e-5)
 ax.set_xscale("log")
 ax.set_yscale("log")
 ax.set_xlabel(r'$E_\gamma {\rm (MeV)}$', fontsize=fs)
-ax.set_ylabel(r'$E_\gamma^2 \, \phi {\rm (MeV\, s^{-1}\, sr^{-1})}$', fontsize=fs)
+ax.set_ylabel(r'$E_\gamma^2 \, \phi {\rm (MeV\, cm^{-2}\, s^{-1})}$', fontsize=fs)
 
 ax.tick_params(axis='x', labelsize=fs)
 ax.tick_params(axis='y', labelsize=fs)
